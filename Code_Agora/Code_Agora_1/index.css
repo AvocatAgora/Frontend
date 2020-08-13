@@ -1,0 +1,149 @@
+body {
+    background: #f5fffa;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.head_img {
+    width: 4.5em
+}
+.head_img:hover {
+    cursor: pointer;
+}
+.zoom_img {
+    width: 0.7em;
+    padding-left: 0.5em;
+}
+#body_search {
+    border: 1px solid #DCDCDC;
+    color: #DCDCDC;
+    background: #F5F5F5;
+    border-radius: 8px;
+    margin: 0.9em auto;
+    padding: 6px 1em;
+    height: 24px;
+}
+#body_search:hover {
+    border-color: burlywood;
+}
+.search_input {
+    background: #F5F5F5;
+    border: none;
+    outline: none;
+    width: 38em;
+}
+.log {
+    margin: 0.5em 2em;
+    color: burlywood; /*#FFEBCD*/
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    padding: 12px 28px;
+}
+.log:hover {
+    cursor: pointer;
+    color: #FFEBCD;
+}
+.log:last-child {
+    background-color: burlywood;
+    color: white;
+}
+.log:last-child:hover {
+    background-color: #FFEBCD;
+}
+#top_body {
+    margin: 6em 13.2em;
+}
+.big_news_name {
+    margin: 0px 1.3em;
+}
+#flex_part {
+    display: flex;
+    justify-content: center;
+}
+.news_part {
+    color: white;
+    border-radius: 15px;
+    box-shadow: 2px -40px 70px 5px black inset;
+    width: 13em;
+    margin: 1em 1em;
+    padding: 1em 1em;
+}
+.news_part:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+#part_1 {
+    background-image: url(Mancity.jpg);
+    background-size: cover;
+}
+#part_2 {
+    background-image: url(Ssack.png);
+    background-size: cover;
+}
+#part_3 {
+    background-image: url(valorant.jpg);
+    background-size: cover;
+}
+#part_4 {
+    background-image: url(Gun.jpg);
+    background-size: cover;
+}
+.news_name {
+    margin: 2em 0em;
+    font-weight: bold;
+    color: white;
+}
+.user_name {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+}
+#second_body {
+    margin: -3em 13.2em;
+}
+#Update_post {
+    border: 1px solid #DCDCDC;
+    border-radius: 8px;
+    background: white;
+    margin: 1em 1.2em;
+    padding: 1em 1em 3em;
+    width: 36em;
+}
+.Second_body_head {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 1em;
+}
+.update_box {
+    display: flex;
+    border: 1px solid #c0c0c0;
+    border-radius: 15px;
+    width: 30em;
+    margin: 0 2em;
+    padding: .6em 1em;
+}
+.update_box:hover {
+    cursor: pointer;
+    border: 1px solid #708090;
+}
+.box_big_name {
+    margin: 1em 0 0;
+}
+.box_main_text {
+    margin: .5em 0 1em;
+    color: #808080;
+    font-size: 13px;
+}
+.update_img {
+    width: 6em;
+    margin: 11px 72px;
+}
