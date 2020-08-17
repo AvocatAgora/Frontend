@@ -50,6 +50,7 @@ body {
     border: 1px solid burlywood;
     border-radius: 8px;
     padding: 12px 28px;
+    text-decoration: none;
 }
 .log:hover {
     cursor: pointer;
@@ -66,7 +67,7 @@ body {
     margin: 6em 13.2em;
 }
 .big_news_name {
-    margin: 0px 1.3em;
+    margin: 0px 3em;
     font-family: 'Gugi', cursive;
     font-style: italic;
 }
@@ -79,7 +80,8 @@ body {
     font-family: 'Noto Sans',Arial,sans-serif;
     border-radius: 15px;
     box-shadow: 2px -40px 70px 5px black inset;
-    width: 13em;
+    width: 12em;
+    height: 11em;
     margin: 1em 1em;
     padding: 1em 1em;
 }
@@ -117,15 +119,15 @@ body {
     display: flex;
 }
 #second_body {
-    margin: -3em 13.2em;
+    margin: -5em 13.3em 0;
 }
 #Update_post {
     border: 1px solid #DCDCDC;
     border-radius: 8px;
     font-family: 'Gugi', cursive;
     background: white;
-    margin: 1em 1.2em;
-    padding: 1em 1em 3em;
+    margin: 1em 3em;
+    padding: .5em 1em 2em;
     width: 36em;
 }
 .Second_body_head {
@@ -157,6 +159,69 @@ body {
     width: 6em;
     margin: 11px 72px;
 }
+.search_chart {
+    background-color: white;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    margin: -2.6em -12.4em;
+    width: 19.5em;
+    height: 21em;
+}
 .chart_header {
-    border: 1px solid black;
+    background: #deb887;
+    border-bottom: 1px solid #deb887;
+    padding: 1.2em 1em 8px;
+}
+.chart_header_font {
+    font-family: 'Noto Sans',Arial,sans-serif;
+    font-weight: bold;
+    color: white
+}
+.chart_header_font:hover {
+    cursor: pointer;
+}
+.chart_body {
+    background: white;
+}
+.chart_text {
+    padding: 0.6em 1em;
+    border-bottom: 1px solid #DCDCDC;
+}
+#chart_text_5 {
+    border:none;
+}
+.ranking_number {
+    padding: 0px 1em;
+    font-family: 'Gugi', cursive;
+    font-size: 14px;
+}
+.ranking_number:hover {
+    cursor: pointer;
+}
+.ranking_text {
+    margin: 0px 1em;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.ranking_text:hover {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.view_box {
+    background: #deb887;
+    border-radius: 5px;
+    margin: 0.5em auto;
+    padding: 0.5em 0;
+    width: 14em;
+    text-align: center;
+    color: white;
+}
+.view_box:hover {
+    cursor: pointer;
+    background: #ffe4c4;
+}
+.view_box_in {
+    font-family: 'Noto Sans',Arial,sans-serif;
+    font-weight: bold;
 }

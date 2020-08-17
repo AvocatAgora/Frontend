@@ -1,0 +1,17 @@
+body {
+    margin: 0 5em;
+}
+#wrap {
+    position: relative;
+}
+#header {
+    position: relative;
+    padding: 106px 0 53px;
+    box-sizing: border-box;
+}
+.log_h {
+    text-decoration: none;
+}
+.blind {
+    margin: 0 20em;
+}
