@@ -101,19 +101,19 @@ body {
     box-shadow: none;
 }
 #part_1 {
-    background-image: url(Mancity.jpg);
+    background-image: url(../img/Mancity.jpg);
     background-size: cover;
 }
 #part_2 {
-    background-image: url(Ssack.png);
+    background-image: url(../img/Ssack.png);
     background-size: cover;
 }
 #part_3 {
-    background-image: url(valorant.jpg);
+    background-image: url(../img/valorant.jpg);
     background-size: cover;
 }
 #part_4 {
-    background-image: url(Gun.jpg);
+    background-image: url(../img/Gun.jpg);
     background-size: cover;
 }
 .news_name {
@@ -240,4 +240,3 @@ body {
     font-family: 'Noto Sans',Arial,sans-serif;
     font-weight: bold;
 }
-@media screen and (max-width: )
