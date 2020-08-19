@@ -212,6 +212,7 @@ body {
 }
 .ranking_number:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 .ranking_text {
     margin: 0px 1em;
@@ -221,7 +222,7 @@ body {
 }
 .ranking_text:hover {
     cursor: pointer;
-    border-bottom: 1px solid black;
+    text-decoration: underline;
 }
 .view_box {
     background: #deb887;
