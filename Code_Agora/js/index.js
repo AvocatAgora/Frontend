@@ -1,5 +1,6 @@
-function onClick() {
-    alert("로그인 후 이용해주세요!");
-}
+let elements = document.getElementsByClassName("update_box");
+let newPost = function() {
+    alert('로그인 후 이용해주세요!');
+};
 
-document.getElementsByClassName('update_box').addEventListener('click', onclick);
+elements[0].addEventListener('click', newPost, false);
