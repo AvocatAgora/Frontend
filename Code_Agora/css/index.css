@@ -27,6 +27,9 @@ body {
     color: #deb887;
 }
 #body_search {
+    display: flex;
+    position: relative;
+    align-items: center;
     border: 1px solid #DCDCDC;
     color: #DCDCDC;
     background: #F5F5F5;
@@ -39,6 +42,8 @@ body {
     border-color: burlywood;
 }
 .search_input {
+    display: block;
+    position: relative;
     background: #F5F5F5;
     font-family: 'Cabin', sans-serif;
     font-size: 14px;
