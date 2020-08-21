@@ -55,7 +55,7 @@ body {
 }
 .log {
     margin: 0.5em 2em;
-    color: burlywood; /*#FFEBCD*/
+    color: burlywood; 
     border: 1px solid burlywood;
     border-radius: 8px;
     padding: 12px 28px;

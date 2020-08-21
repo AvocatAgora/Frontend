@@ -26,46 +26,36 @@
                     <a href="log_use.html" class="log">회원가입</a>
     </div>
         <div id="container">
-            <div class="wrap">
-                <section class="gird">
-                    <div class="wrt_box">
-                        <div class="wrt_tit_box">
-                            <h4 class="tit_box">글쓰기</h4>
-                        </div>
-                        <div class="wrt_form_box">
-                            <form method="POST" action="" name="wrt_form" id="writeForm">
-                                <ul class="wrt_li">
-                                    <li class="subject">
-                                        <input type="text" class="ipt" placeholder="제목" maxlength="40" id="subject" autocomplete="off" name="title" />
-                                    </li>
-                                    <li>
-                                        <div id="textBox" contenteditable="true" 
-                                        style="overflow: auto;min-height:300px" 
-                                        class="wrt-caption" data-ph="내용">
+            <section>
+                <div>
+                    <h4 class="tit_box">글쓰기</h4>
+                </div>
+                <div>
+                    <form method="POST" action="" name="wrt_form">
+                        <ul>
+                            <li class="subject">
+                                <input type="text" class="ipt" placeholder="제목" maxlength="40" autocomplete="off" name="title" />
+                            </li>
+                            <li>
+                                <div id="textBox" contenteditable="true" 
+                                style="overflow: auto;min-height:300px" data-ph="내용">
+                                </div>
+                                <textarea style="display: none;" name="description"></textarea>
+                            </li>
+                            <li>
+                                <div class="btm_btns_box">
+                                    <div class="fl">                   
+                                            <a href="index.html"><button class="btn_line_gray" type="button">취소</button></a>
+                                    </div> 
+                                        <div class="fr">
+                                            <input class="btn_line_blue" type="submit" vlaue="등록"></input>
                                         </div>
-                                        <textarea style="display: none;" 
-                                        id="memo" name="description"></textarea>
-                                    </li>
-                                    <li>
-                                        <div class="btm_btns_box">
-                                            <div class="fl">                   
-                                                <button class="btn_line_gray" 
-                                                type="button">취소</button>
-                                            </div> 
-                                                <div class="fr">
-                                                    <input class="btn_line_blue" 
-                                                    type="submit" vlaue="등록"></input>
-                                                </div>
-                                        </div>
-                                    </li>           
-                                </ul>
-                            </form>
-                        </div>
-                    </div>
-                </section>
-            </div>
-                
+                                </div>
+                            </li>           
+                        </ul>
+                    </form>
+                </div>
+            </section>
         </div>
-    </div>
 </body>
 </html>
