@@ -1,8 +1,10 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body {
-    background: #f5f6f7;
+    background-color: #ebecf1;
 }
 #header {
     display: flex;
@@ -71,4 +73,89 @@ body {
 }
 .log:last-child:hover {
     background-color: #FFEBCD;
+}
+#container {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    margin: 0px 110px;
+}
+.wrap {
+
+}
+.grid {
+
+}
+.wrt_box {
+
+}
+.wrt_tit_box {
+
+}
+.tit_box {
+    border: 1px solid #ebecf1;
+    background: white;
+    text-align: left;
+    height: 45px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 15px;
+}
+.wrt_form_box {
+
+}
+#writeForm {
+
+}
+.wrt_li {
+
+}
+ul, li {
+    list-style: none;
+}
+.subject {
+}
+.ipt {
+    outline: none;
+    font-size: 18px;
+    padding: 12px 15px;
+    margin-top: -11px;
+    border: 1px solid #ebecf1;
+    background: white;
+    text-align: left;
+    height: 45px;
+    width: 100%;
+    color: black;
+}
+#subject {
+
+}
+#textBox {
+    border: 1px solid #ebecf1;
+    background: white;
+    text-align: left;
+    padding: 15px 10px;
+    font-weight: 400;
+}
+.wrt-caption {
+
+}
+#memo {
+
+}
+.btm_btns_box {
+    display: list-item;
+}
+.fl {
+    float: left;
+}
+.btn_line_gray {
+
+}
+.fr {
+    float: right;
+}
+.btn_line_blue {
+
 }

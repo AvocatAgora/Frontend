@@ -94,6 +94,7 @@ body {
 .news_part {
     color: white;
     font-family: 'Noto Sans',Arial,sans-serif;
+    text-decoration: none;
     border-radius: 15px;
     box-shadow: 2px -40px 70px 5px black inset;
     width: 13em;

@@ -9,8 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=PT+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/1bee29aae8.js" crossorigin="anonymous"></script>
-    <title>Agora 글쓰기</title>
+    <title>글쓰기 - Agora</title>
     <link rel="stylesheet" href="./css/write_wrap.css" />
 </head>
 <body>
@@ -23,9 +25,46 @@
                     <a href="login.html" class="log">로그인</a>
                     <a href="log_use.html" class="log">회원가입</a>
     </div>
-    <div id="section">
-        <div id="article">
-            
+        <div id="container">
+            <div class="wrap">
+                <section class="gird">
+                    <div class="wrt_box">
+                        <div class="wrt_tit_box">
+                            <h4 class="tit_box">글쓰기</h4>
+                        </div>
+                        <div class="wrt_form_box">
+                            <form method="POST" action="" name="wrt_form" id="writeForm">
+                                <ul class="wrt_li">
+                                    <li class="subject">
+                                        <input type="text" class="ipt" placeholder="제목" maxlength="40" id="subject" autocomplete="off" name="title" />
+                                    </li>
+                                    <li>
+                                        <div id="textBox" contenteditable="true" 
+                                        style="overflow: auto;min-height:300px" 
+                                        class="wrt-caption" data-ph="내용">
+                                        </div>
+                                        <textarea style="display: none;" 
+                                        id="memo" name="description"></textarea>
+                                    </li>
+                                    <li>
+                                        <div class="btm_btns_box">
+                                            <div class="fl">                   
+                                                <button class="btn_line_gray" 
+                                                type="button">취소</button>
+                                            </div> 
+                                                <div class="fr">
+                                                    <input class="btn_line_blue" 
+                                                    type="submit" vlaue="등록"></input>
+                                                </div>
+                                        </div>
+                                    </li>           
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+                
         </div>
     </div>
 </body>
