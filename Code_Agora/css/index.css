@@ -186,6 +186,10 @@ body {
     border: 1px solid #DCDCDC;
     border-radius: 5px;
 }
+.community_box:hover {
+    cursor: pointer;
+    border: 1px solid #708090
+}
 .box_left {
     background: #F5F5F5;
     text-align: center;
@@ -202,6 +206,19 @@ body {
 .voteButton {
     border: 1px solid #F5F5F5;
     background: #f5f5f5;
+    outline: none;
+}
+.button_hover {
+    display: inline-block;
+    overflow: hidden;
+    height: 24px;
+    width: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button_hover:hover:first-child {
+    cursor: pointer;
+    background: #dcdcdc;
 }
 .fa, .fas {
     font-weight: 900;
@@ -260,6 +277,9 @@ body {
     font-weight: 700;
     line-height: 16px;
     padding: 4px;
+}
+.link_comment:hover {
+    cursor: pointer;
 }
 .comment_txt {
     font-size: 13px;
